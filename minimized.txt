@@ -137,6 +137,7 @@ freesurfer/bin/mri_mask
 freesurfer/bin/mri_morphology
 freesurfer/bin/mri_or
 freesurfer/bin/mri_pretess
+freesurfer/bin/mri_robust_register
 freesurfer/bin/mri_robust_template
 freesurfer/bin/mri_segstats
 freesurfer/bin/mri_tessellate
