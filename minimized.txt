@@ -128,6 +128,7 @@ freesurfer/bin/lta_diff
 freesurfer/bin/mri_aparc2aseg
 freesurfer/bin/mri_binarize
 freesurfer/bin/mri_convert
+freesurfer/bin/mri_coreg
 freesurfer/bin/mri_correct_segmentations
 freesurfer/bin/mri_distance_transform
 freesurfer/bin/mri_edit_wm_with_aseg
