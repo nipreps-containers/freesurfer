@@ -22,7 +22,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM alpine:3.15
+FROM alpine:3.16
 
 # Update
 RUN apk update && \
@@ -32,7 +32,9 @@ RUN apk update && \
     rm -rf /var/cache/apk/*
 
 # Installing freesurfer
-COPY minimized.txt /usr/local/etc/freesurfer-exclude.txt
-RUN curl -sSL https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/infant/freesurfer-linux-centos7_x86_64-infant-dev-4a14499.tar.gz \
-  | tar zxvf --no-same-owner -C /opt -n -T /usr/local/etc/freesurfer-exclude.txt
+COPY minimized.txt /usr/local/etc/freesurfer-includes.txt
+WORKDIR /opt
+RUN curl -SL https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/infant/freesurfer-linux-centos7_x86_64-infant-dev-4a14499.tar.gz -o freesurfer.tar.gz \
+    && tar -xzvf freesurfer.tar.gz -n -T /usr/local/etc/freesurfer-includes.txt \
+    && rm freesurfer.tar.gz
 
