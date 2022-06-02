@@ -35,6 +35,6 @@ RUN apk update && \
 COPY minimized.txt /usr/local/etc/freesurfer-includes.txt
 WORKDIR /opt
 RUN curl -SL https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/infant/freesurfer-linux-centos7_x86_64-infant-dev-4a14499.tar.gz -o freesurfer.tar.gz \
-    && tar -xzvf freesurfer.tar.gz -T /usr/local/etc/freesurfer-includes.txt \
+    && tar -xzvf freesurfer.tar.gz -h --hard-dereference -T /usr/local/etc/freesurfer-includes.txt \
     && rm freesurfer.tar.gz
 

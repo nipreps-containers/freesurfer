@@ -137,6 +137,8 @@ freesurfer/bin/set_infant_recon_params.csh
 freesurfer/lib/bem/ic4.tri
 freesurfer/lib/bem/ic7.tri
 freesurfer/lib/vtk
+freesurfer/python/bin/python3.6
+freesurfer/python/bin/python3
 freesurfer/python/lib/libcrypto.so.10
 freesurfer/python/lib/liblzma.so.0
 freesurfer/python/lib/libssl.so.10
