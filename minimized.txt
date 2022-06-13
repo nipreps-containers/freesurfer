@@ -1,6 +1,5 @@
 freesurfer/ASegStatsLUT.txt
 freesurfer/FreeSurferColorLUT.txt
-freesurfer/SubCorticalMassLUT.txt
 freesurfer/WMParcStatsLUT.txt
 freesurfer/average/711-2B_as_mni_average_305_mask.4dfp.ifh
 freesurfer/average/711-2B_as_mni_average_305_mask.4dfp.img
@@ -120,7 +119,6 @@ freesurfer/bin/create_pial_surfaces_mprage_subject.csh
 freesurfer/bin/create_wm_surfaces_mprage_subject.csh
 freesurfer/bin/defect2seg
 freesurfer/bin/extract_talairach_avi_QA.awk
-freesurfer/bin/fs_temp_dir
 freesurfer/bin/fs_time
 freesurfer/bin/find_neighbors_byAge_extended.csh
 freesurfer/bin/fspython
@@ -356,7 +354,6 @@ freesurfer/mni/lib/perl5/5.8.0/i386-linux-thread-multi/perllocal.pod
 freesurfer/mni/lib/perl5/5.8.0/mni_perllib.pod
 freesurfer/mni/lib/perl5/5.8.5/Getopt/Tabular.pm
 freesurfer/mni/lib/perl5/5.8.5/Getopt/Tabular.pod
-freesurfer/mni/lib/perl5/5.8.5/MNI
 freesurfer/mni/lib/perl5/5.8.5/MNI.pm
 freesurfer/mni/lib/perl5/5.8.5/MNI/Batch.pm
 freesurfer/mni/lib/perl5/5.8.5/MNI/DataDir.pm
@@ -1422,7 +1419,6 @@ freesurfer/subjects/fsaverage5/mri/brainmask.mgz
 freesurfer/subjects/fsaverage5/mri/mni305.cor.mgz
 freesurfer/subjects/fsaverage5/mri/orig.mgz
 freesurfer/subjects/fsaverage5/mri/p.aseg.mgz
-freesurfer/subjects/fsaverage5/mri/transforms
 freesurfer/subjects/fsaverage5/mri/transforms/talairach.xfm
 freesurfer/subjects/fsaverage5/rh.reg.template.tif
 freesurfer/subjects/fsaverage5/scripts/make_average_surface.log
@@ -1537,7 +1533,6 @@ freesurfer/subjects/fsaverage6/mri/brainmask.mgz
 freesurfer/subjects/fsaverage6/mri/mni305.cor.mgz
 freesurfer/subjects/fsaverage6/mri/orig.mgz
 freesurfer/subjects/fsaverage6/mri/p.aseg.mgz
-freesurfer/subjects/fsaverage6/mri/transforms
 freesurfer/subjects/fsaverage6/mri/transforms/talairach.xfm
 freesurfer/subjects/fsaverage6/rh.reg.template.tif
 freesurfer/subjects/fsaverage6/scripts/make_average_surface.log
