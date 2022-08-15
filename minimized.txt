@@ -659,6 +659,8 @@ freesurfer/python/lib/python3.6/site-packages/nibabel/viewers.py
 freesurfer/python/lib/python3.6/site-packages/nibabel/volumeutils.py
 freesurfer/python/lib/python3.6/site-packages/nibabel/wrapstruct.py
 freesurfer/python/lib/python3.6/site-packages/nibabel/xmlutils.py
+freesurfer/python/lib/python3.6/site-packages/numpy/.libs/libgfortran-ed201abd.so.3.0.0
+freesurfer/python/lib/python3.6/site-packages/numpy/.libs/libopenblasp-r0-382c8f3a.3.5.dev.so
 freesurfer/python/lib/python3.6/site-packages/numpy/__config__.py
 freesurfer/python/lib/python3.6/site-packages/numpy/__init__.py
 freesurfer/python/lib/python3.6/site-packages/numpy/_distributor_init.py
