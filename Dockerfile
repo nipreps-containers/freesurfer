@@ -37,4 +37,6 @@ WORKDIR /opt
 RUN curl -SL https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/infant/freesurfer-linux-centos7_x86_64-infant-dev-4a14499.tar.gz -o freesurfer.tar.gz \
     && tar -xzvf freesurfer.tar.gz -h --hard-dereference -T /usr/local/etc/freesurfer-includes.txt \
     && rm freesurfer.tar.gz
+# Build-stamp hack for wonky infant-dev version
+RUN echo "freesurfer-linux-centos7_x86_64-7.1.1-dev-4a14499-20210109-4a14499" > /opt/freesurfer/build-stamp.txt
 
